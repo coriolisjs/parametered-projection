@@ -19,7 +19,6 @@ const myProjection = ({ useState, useProjection }) => (
   useProjection(lastPayloadOfType('target event type')),
   (list, event) => [...list, event]
 )
-
 ```
 
 Of course this code sample is not doing anything interesting. But parametered projections are really helpful in real world.
