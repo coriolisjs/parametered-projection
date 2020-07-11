@@ -23,7 +23,6 @@
     "store"
   ],
   "main": "cjs/index.js",
-  "type": "module",
   "sideEffects": false,
   "module": "src/index.js",
   "files": [
